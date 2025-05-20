@@ -1,8 +1,8 @@
 {
-  "name": "tp4-efsi2-bebczuk-susel",
+  "name": "tp4-p2-efsi2-bebczuk-susel",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://MatiasBebczuk.github.io/TP4_EFSI2_Bebczuk_Susel",
+  "homepage": "https://MatiasBebczuk.github.io/TP4_P2_EFSI2-Bebczuk_Susel",
   "type": "module",
   "scripts": {
     "dev": "vite",
