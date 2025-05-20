@@ -1,0 +1,8 @@
+.Listado {
+    width: 40%;
+    padding: 20px;
+    float: right;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}

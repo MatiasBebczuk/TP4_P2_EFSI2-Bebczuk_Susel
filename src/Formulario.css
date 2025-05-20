@@ -1,0 +1,43 @@
+.form {
+    width: 45%;
+    padding: 20px;
+    float: left;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: sans-serif;
+}
+
+.form label {
+    color: white;
+    font-weight: bold;
+}
+  
+.form input[type="text"],
+.form input[type="mail"],
+.form input[type="password"],
+.form input[type="date"],
+.form input[type="time"] {
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+  
+.form input[type="submit"] {
+    width: 100%;
+    padding: 10px 20px; 
+    background-color: #33C3F0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #37a7c9;
+}
