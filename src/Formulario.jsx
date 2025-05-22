@@ -3,6 +3,7 @@ import './Formulario.css';
 function Formulario({citas, setCitas}){
     const añadirCita = () => {
         let nuevo = {
+            id: citas.length + 1,
             NombreDueño: document.querySelector("#NombreDueño").value,
             NombreMascota: document.querySelector("#NombreMascota").value,
             Fecha: document.querySelector("#Fecha").value,

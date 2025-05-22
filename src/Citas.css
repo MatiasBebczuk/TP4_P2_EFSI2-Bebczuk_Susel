@@ -25,3 +25,20 @@
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
+
+.botoneliminar {
+    border: 1px solid #bbb;
+    color: #555;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0 30px;
+    height: 38px;
+    background-color: white;
+}
+
+.botoneliminar:hover {
+    cursor: pointer;
+    background-color: #c10059;
+    color: white;
+    margin-top: 2rem;
+}
